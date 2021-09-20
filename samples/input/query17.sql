@@ -1,0 +1,1 @@
+select S.A from Sailors S, Boats B, Reserves R where S.A = B.E AND S.A = R.G;

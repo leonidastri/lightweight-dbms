@@ -1,0 +1,1 @@
+select S.A, R.G from Sailors S, Boats B, Reserves R WHERE B.D < R.H ORDER BY S.A;

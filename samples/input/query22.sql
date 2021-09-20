@@ -1,0 +1,1 @@
+select * from Sailors S1, Boats B, Sailors S2 where S1.A = B.E order by S2.A;

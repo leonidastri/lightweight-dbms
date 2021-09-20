@@ -1,0 +1,1 @@
+select B.D, B.E, S2.A, S1.B from Sailors S1, Boats B, Sailors S2 where S1.A = B.E AND S2.A = S1.A;

@@ -1,0 +1,1 @@
+select distinct B2.E, S1.A, R.G, B1.D, S2.A from Sailors S1, Sailors S2, Boats B1, Boats B2, Reserves R where S1.A = B1.E AND B1.D < R.H AND B2.E = R.G;

@@ -1,0 +1,1 @@
+select distinct S.A, B.E from Sailors S, Boats B, Reserves R;

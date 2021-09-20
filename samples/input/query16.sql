@@ -1,0 +1,1 @@
+select DISTINCT S.A, R.G, B.E, S.C from Sailors S, Boats B, Reserves R WHERE B.D < R.H AND S.A = 1 ORDER BY B.E;

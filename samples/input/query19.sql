@@ -1,0 +1,1 @@
+select * from Sailors, Boats, Reserves where Sailors.A = Reserves.G AND Boats.D > Reserves.H AND Sailors.A = Boats.E;
